@@ -2,7 +2,7 @@
 
 ## Overview
 
-This C# Windows Forms application analyzes fake blood test results from patients with Hepatitis and cross-references them with hospital medical records to determine correlations between blood markers and patient outcomes (lived or died). The goal is to identify patterns that may help inform future diagnoses or prognosis from 2 external datasets XML and Linq.
+This C# Windows Forms application analyzes fake blood test results from patients with Hepatitis and cross-references them with hospital medical records to determine correlations between blood markers and patient outcomes (lived or died). The goal is to identify patterns that may help inform future diagnoses or prognosis from 2 external datasets XML and SQL.
 
 The program performs statistical analysis (mean and standard deviation) on four key blood test values—**Bilirubin**, **Alk Phosphate**, **SGOT**, and **Albumin**—and separates results based on whether the patient survived or not.
 
