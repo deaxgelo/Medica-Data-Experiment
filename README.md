@@ -1,4 +1,4 @@
-# Hepatitis Blood Test Analysis (Lab 8 – EGR 1400)
+# Blood Test Analysis
 
 ## Overview
 
@@ -11,7 +11,7 @@ The program performs statistical analysis (mean and standard deviation) on four 
 ## What It Does When Run
 
 1. Reads **blood test data** from two sources: a plain text file (`BloodTests.txt`) and an XML file (`BloodTests.xml`).
-2. Connects to a **hospital database** (`MedicalRecords1400.mdf`) to retrieve patient outcome data (Alive or Died).
+2. Connects to a **hospital database** (FAKE) (`MedicalRecords1400.mdf`) to retrieve patient outcome data (Alive or Died).
 3. Uses LINQ and array structures to:
    - Filter and match patient data by `PatientID`
    - Skip any invalid entries (e.g., values set to `-99`)
@@ -58,8 +58,8 @@ Std. Dev Bilirubin (Died): 0.35
 
 1. **Download and unzip** the lab project folder.
 2. Open the `.sln` file using **Visual Studio**.
-3. Build the project (`Ctrl + Shift + B`).
-4. Run the program (`F5` or click **Start**).
+3. Build the project).
+4. Run the program.
 5. Click the **Analyze** button to view results in the list box.
 
 ---
